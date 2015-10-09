@@ -3,18 +3,54 @@
 @import "import-styles.css";
 
 body {
-  text-align: center;
+  color: #878787;
+  margin: 0;
+  font-size: .1em; /* 16px */
 }
 
 h1 {
-  font-size: 72px;
-  color: white;
+  font-size: 5.625rem; /* 90px / 16px */
+  color: rgba(255, 255, 255, .1); /* Alpha value of "1" makes element fully opaque */
+}
+
+/* Photography letters */
+
+h2 {
+  font-size: 53px;
+}
+
+h3 {
+  font-size: 20px; /* Description below */
 }
 
 /* Class Selectors ----------------- */
 
 .main-header {
-  background-color: orange;
+  background-color: #ffa949;
+}
+
+#main-footer {
+  padding-top: 60px;
+ padding-bottom: 60px;
+ border-bottom: solid 10px #ffa949;
+}
+
+.title {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+}
+
+.primary-content,
+.secondary-content {
+  width: 60%;
+}
+
+.primary-content {
+  text-align: center;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey; /*top border styles */
 }
 
 /* Pseudo-classes ------------------ */
@@ -32,19 +68,23 @@ p {
 
 /* Esto anade luces */
 
+a:link {
+  color: rgb(255, 169, 73);
+}
+
+a:visited {
+  color: lightblue;
+}
+
 a:hover {
-  color: green;
+  color: rgba(255, 169, 73, .4);
 }
 
-h1:hover {
-  color: red;
+a:active {
+  color: lightcoral;
 }
 
-#main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: solid 10px orange;
-}
+
 
 
 /*****************************
@@ -112,12 +152,11 @@ PAGE: CONTACT
   background-image: url('../img/twitter.png');
 }
 
-
 /*****************************
 COLORS
 ******************************/
 
-/* site body */
+ /*site body  */
 body {
   background-color: #fff;
   color: #999;
