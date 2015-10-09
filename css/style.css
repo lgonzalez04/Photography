@@ -1,3 +1,4 @@
+/* Type Selectors ------------------ */
 
 @import "import-styles.css";
 
@@ -10,9 +11,13 @@ h1 {
   color: white;
 }
 
-header {
+/* Class Selectors ----------------- */
+
+.main-header {
   background-color: orange;
 }
+
+/* Pseudo-classes ------------------ */
 
 ul li {
   background-color: white;
@@ -23,4 +28,14 @@ ul li {
 
 p {
   font-size: 20px;
+}
+
+/* Esto anade luces */
+
+a:hover {
+  color: green;
+}
+
+h1:hover {
+  color: red;
 }
