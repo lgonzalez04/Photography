@@ -5,8 +5,7 @@
 body {
   color: #878787;
   margin: 0;
-  font-size: .1em; /* 16px */
-  font-family: "Helvetica Neue" Helvetica, Arial, sans-serif;
+  font: 1em/1.5 "Helvetica Neue" Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -14,6 +13,7 @@ h1 {
   color: rgba(255, 255, 255, .1); /* Alpha value of "1" makes element fully opaque */
   text-transform: uppercase;
   font-weight: normal;
+  line-height: 1.3;
 }
 
 /* Photography letters */
