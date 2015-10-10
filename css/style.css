@@ -174,11 +174,11 @@ PAGE: CONTACT
 }
 
 .contact-info li.mail a {
-  background-image: url('../mail.png');
+  background-image: url('../img/mail.png');
 }
 
 .contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+  background-image: url('../img/twitter-wrap.png');
 }
 
 /*****************************
