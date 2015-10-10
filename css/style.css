@@ -6,17 +6,21 @@ body {
   color: #878787;
   margin: 0;
   font-size: .1em; /* 16px */
+  font-family: "Helvetica Neue" Helvetica, Arial, sans-serif;
 }
 
 h1 {
   font-size: 5.625rem; /* 90px / 16px */
   color: rgba(255, 255, 255, .1); /* Alpha value of "1" makes element fully opaque */
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 /* Photography letters */
 
 h2 {
   font-size: 53px;
+  font-weight: normal;
 }
 
 h3 {
@@ -45,7 +49,8 @@ h3 {
   width: 60%;
 }
 
-.primary-content {
+.primary-content,
+.main-header {
   text-align: center;
 }
 
@@ -70,6 +75,7 @@ p {
 
 a:link {
   color: rgb(255, 169, 73);
+  text-decoration: none;
 }
 
 a:visited {
