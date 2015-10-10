@@ -1,6 +1,8 @@
 /* Type Selectors ------------------ */
 
-@import "import-styles.css";
+* {
+  box-sizing: border-box;
+}
 
 body {
   color: #878787;
@@ -30,7 +32,11 @@ h3 {
 /* Class Selectors ----------------- */
 
 .main-header {
-  background-color: #ffa949;
+  padding-top: 170px;
+  height: 850px;
+
+  background: #ffa949  url('../img/IMG_8366.jpg') no-repeat center;
+  background-size: cover;
 }
 
 #main-footer {
@@ -46,7 +52,11 @@ h3 {
 
 .primary-content,
 .secondary-content {
-  width: 60%;
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 900px;
 }
 
 .primary-content,
@@ -72,15 +82,16 @@ ul {
   width: 570px;
   padding: 15px;
   margin: 0px auto 0px auto;
-  border-top: 2px solid #000;
-  border-bottom: 1px solid #000;
   text-align: center;
 }
 
 li {
   display: inline;
+  padding: 0 12px;
+  border-right: solid 1px;
   margin: 0px 3px;
 }
+
 
 /* Esto anade luces */
 
@@ -146,6 +157,7 @@ PAGE: CONTACT
   padding: 0;
   margin: 0;
   font-size: 0.9em;
+  text-align: left;
 }
 
  .contact-info a {
