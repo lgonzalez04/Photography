@@ -6,16 +6,18 @@
 
 body {
   color: #878787;
-  margin: 0;
+  margin: 0px;
   font: 1em/1.5 "Helvetica Neue" Helvetica, Arial, sans-serif;
 }
 
 h1 {
-  font-size: 5.625rem; /* 90px / 16px */
+  font-size: 3.625rem; /* 90px / 16px */
   color: rgba(255, 255, 255, .1); /* Alpha value of "1" makes element fully opaque */
   text-transform: uppercase;
   font-weight: normal;
   line-height: 1.3;
+  padding-top: 450px; /*cambia la posicion de la letra de luis primera pagina */
+  font-size: 45px; /*tamano de la letra de mi primera pagina Luis gonzalez photography */
 }
 
 /* Photography letters */
@@ -32,15 +34,17 @@ h3 {
 /* Class Selectors ----------------- */
 
 .main-header {
+  background-color: #ffa949;
   padding-top: 170px;
   height: 850px;
-
-  background: #ffa949  url('../img/IMG_8366.jpg') no-repeat center;
+  background-image: url('../img/IMG_8366.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #main-footer {
-  padding-top: 60px;
+ padding-top: 60px;
  padding-bottom: 60px;
  border-bottom: solid 10px #ffa949;
 }
@@ -48,6 +52,7 @@ h3 {
 .title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
+  /*padding-bottom: 500px;*/
 }
 
 .primary-content,
@@ -61,12 +66,13 @@ h3 {
 
 .primary-content,
 .main-header {
-  text-align: center;
+  text-align: center; /*esto maneja todo principal de mi imagen y letra p1 */
 }
 
-/*.t-border {*/
-  /*border-top: 2px solid lightgrey; /*top border styles */*/
-/*}*/
+.t-border {
+  border-top: 2px solid lightgrey; /*top border styles */
+}
+
 
 /* Pseudo-classes ------------------ */
 
