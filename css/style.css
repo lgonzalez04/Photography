@@ -150,9 +150,10 @@ PAGE: ABOUT
 
  .profile-photo {
   display: block;
-  max-width: 150px;
+  max-width: 350px;
   margin: 0 auto 30px;
-  border-radius: 100%;
+  border-radius: 0;
+  padding-top: 250px;
 }
 
 
