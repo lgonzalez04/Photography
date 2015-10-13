@@ -68,7 +68,8 @@ h3 {
   text-align: center; /*esto maneja todo principal de mi imagen y letra p1 */
 }
 
-.contact1 { /*esto arregla la pagina de contacto solo lo verde */
+.contact1 {
+  /*esto arregla la pagina de contacto solo lo verde */
   /*border: 1px solid #000;  /*esto pone un cuadro alrededor */
 }
 
@@ -76,6 +77,9 @@ h3 {
   /*border-top: 2px solid lightgrey;*/
 }*/
 
+.your-class {
+background-color: rgb(0, 0, 0);
+}
 
 /* Pseudo-classes ------------------ */
 
@@ -150,10 +154,10 @@ PAGE: ABOUT
 
  .profile-photo {
   display: block;
-  max-width: 350px;
+  max-width: 650px;
   margin: 0 auto 30px;
-  border-radius: 0;
-  padding-top: 250px;
+  padding-top: 50px;
+
 }
 
 
