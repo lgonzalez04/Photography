@@ -25,6 +25,7 @@ h1 {
 
 h2 {
   font-size: 53px;
+
   font-weight: normal; /* arregla algo en about */
 }
 
@@ -45,7 +46,6 @@ h3 {
 #main-footer {
  padding-top: 20px;
  padding-bottom: 10px;
-
 }
 
 .title {
@@ -157,7 +157,6 @@ PAGE: ABOUT
   max-width: 650px;
   margin: 0 auto 30px;
   padding-top: 50px;
-
 }
 
 
@@ -171,11 +170,11 @@ PAGE: CONTACT
   padding: 0;
   margin: 0;
   font-size: 0.9em;
-  text-align: left;
+  text-align: left;  /*pagina de contactos a la izquierda */
 }
 
  .contact-info a {
-  display: block;
+  display: block inline-flex;
   min-height: 20px;
   background-repeat: no-repeat;
   background-size: 20px 20px;
@@ -241,3 +240,18 @@ nav a.selected, nav a:hover {
 /*@media (max-width: 1024px) {
     width: 190%;
 }*/
+
+
+/*images*/
+
+.sidebar-image-gallery {
+   width: 210%;
+ }
+
+ .sidebar-image-gallery img:hover {
+  opacity: 1;
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
