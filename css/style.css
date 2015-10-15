@@ -6,7 +6,7 @@
 
 body {
   color: #878787;
-  margin: 0px;
+  margin: 0;
   font: 1em/1.5 "Helvetica Neue" Helvetica, Arial, sans-serif;
 }
 
@@ -54,14 +54,14 @@ h3 {
   /*padding-bottom: 500px;*/
 }
 
-.primary-content,
+/*.primary-content,
 .secondary-content {
   width: 75%;
   padding-left: 50px;
   padding-right: 50px;
   margin: auto;
   max-width: 900px;
-}
+}*/
 
 .primary-content,
 .main-header {
@@ -137,13 +137,14 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc;
+  color: #3335;
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
   margin: 0 5px;
+  color: #3333;
 }
 
 
@@ -200,8 +201,8 @@ COLORS
 
  /*site body  */
 body {
-  background-color: #fff;
-  color: #999;
+  background-color: #000;
+  color: #3335;
 }
 
 /* green header */
