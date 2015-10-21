@@ -327,3 +327,15 @@ header h3 {
 .gallery img:hover {
   border: 1px solid #fff;
 }
+
+footer {
+  background: #222222;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
