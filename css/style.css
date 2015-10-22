@@ -269,7 +269,7 @@ article, aside, figure, footer, header, hgroup,
 menu, nav, section { display: block; }
 
 body {
-  background: #969fab;
+  background: black;
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
