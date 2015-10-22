@@ -37,7 +37,7 @@ h3 {
 
 .main-header {
   padding-top: 10px; /* cambia la posicion de las letras de arriba */
-  height: 850px;
+  height: 999px;
 
   background: url('../img/IMG_8366.jpg') no-repeat center;
   background-size: cover;
@@ -109,7 +109,7 @@ li {
 /* Esto anade luces */
 
 a:link {
-  color: rgb(255, 169, 73);
+  color: rgb(255, 169, 73); /*refleja los links de contact */
   text-decoration: none;
 }
 
@@ -202,18 +202,18 @@ COLORS
  /*site body  */
 body {
   background-color: #000;
-  color: #3335;
+  color: #333;
 }
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #black;
+  border-color: #black;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #white;
 }
 
 /* logo text */
@@ -277,11 +277,11 @@ body {
   width: 700px;
   margin: 30px auto 0;
 }
-
+/*
 header {
   background: #42517f;
   border-bottom: 1px solid #000;
-}
+}*/
 
 header h3 {
   color: #fff;
@@ -329,7 +329,7 @@ header h3 {
 }
 
 footer {
-  background: #222222;
+  background: #black;
 }
 
 footer p {
