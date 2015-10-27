@@ -341,7 +341,7 @@ header h3 {
 }
 
 #content {
-  background: #848c9c;
+  background: black;
   background: linear-gradient (to top, #848c9c 0%, #687080 50%, #a7b1c5 100%);
   background: -webkit-linear-gradient (bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%);
   padding-top: 30px;
