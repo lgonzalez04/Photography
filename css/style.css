@@ -44,7 +44,7 @@ h3 {
 
 /* Class Selectors ----------------- */
 
-#menu {
+.menu {
 	background: #384047;
 	height: 60px;
 	padding: 0 5px 0;
