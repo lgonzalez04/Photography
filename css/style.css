@@ -2,37 +2,43 @@
   box-sizing: border-box;
 }
 
-body {
+/*body {
   color: white;
   margin: 0;
   font: 1em/1.5 "Helvetica Neue" Helvetica, Arial, sans-serif;
   /*padding-top: 70px;*/
-}
+}*/
 
 .container {
   max-width: 1000px;
 }
 
-.main-header {
+/*#mycarousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}*/
+
+/*.main-header {
   position: relative;
   padding-top: 70px; /* cambia la posicion de las letras de arriba */
-  height: 825px;
+  /*height: 825px;
   background: url('../img/IMG_8366.jpg') no-repeat center;
   background-size: cover;
   line-height: 2.3;
-  font-weight: normal;
-}
+  /*font-weight: normal;*/*/*/
+/*}*/*/
 
-.container-bottom {
+/*.container-bottom {
   position: absolute;
   display: block;
   bottom: 0;
   width: 100%;
-}
+}*/
 
-.title2 {
+/*.title2 {
   text-align: center;
-}
+}*/
 
 /*h1 {
   /*font-size: 3.625rem; /* 90px / 16px */
@@ -110,11 +116,11 @@ button {
  padding-bottom: 10px;
 }*/
 
-.title {
+/*.title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
   /*padding-bottom: 500px;*/
-}
+}*/
 
 /*.primary-content,
 .secondary-content {
@@ -125,16 +131,16 @@ button {
   max-width: 900px;
 }*/
 
-.primary-content,
+/*.primary-content,
 .main-header {
   text-align: center; /*esto maneja todo principal de mi imagen y letra p1 */
-}
+}*/
 
-.contact1 {
+/*.contact1 {
 
   /*esto arregla la pagina de contacto solo lo verde */
   /*border: 1px solid #000;  /*esto pone un cuadro alrededor */
-}
+}*/
 
 /*.t-border {   /*arregla y desarregla los iconos de facebook */
   /*border-top: 2px solid lightgrey;*/
@@ -146,13 +152,13 @@ background-color: rgb(0, 0, 0);
 
 /* Pseudo-classes ------------------ */
 
-p {
+/*p {
   background-color: none;
   color: black;
   margin-top: 5px;
   display: inline;
   font-size: 20px;
-}
+}*/
 
 /*ul {
   width: 570px;
