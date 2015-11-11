@@ -13,21 +13,22 @@
   max-width: 1000px;
 }
 
-/*#mycarousel .item img{
+#owl-demo .item img{
     display: block;
     width: 100%;
     height: auto;
-}*/
+}
 
-/*.main-header {
+
+.main-header {
   position: relative;
-  padding-top: 70px; /* cambia la posicion de las letras de arriba */
+  padding-top: 70px; /* cambia la posicion de las letras de arriba
   /*height: 825px;
   background: url('../img/IMG_8366.jpg') no-repeat center;
   background-size: cover;
   line-height: 2.3;
-  /*font-weight: normal;*/*/*/
-/*}*/*/
+  font-weight: normal;*/
+}
 
 /*.container-bottom {
   position: absolute;
