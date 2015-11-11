@@ -6,11 +6,16 @@ body {
   color: white;
   margin: 0;
   font: 1em/1.5 "Helvetica Neue" Helvetica, Arial, sans-serif;
+  /*padding-top: 70px;*/
+}
+
+.container {
+  max-width: 1000px;
 }
 
 .main-header {
   position: relative;
-  padding-top: 0px; /* cambia la posicion de las letras de arriba */
+  padding-top: 70px; /* cambia la posicion de las letras de arriba */
   height: 825px;
   background: url('../img/IMG_8366.jpg') no-repeat center;
   background-size: cover;
@@ -149,27 +154,27 @@ p {
   font-size: 20px;
 }
 
-ul {
+/*ul {
   width: 570px;
   padding: 15px;
   margin: 0px auto 0px auto;
-  text-align: center;
+  text-align: center;*/
 }
-
+/*
 li {
   display: inline;
   padding: 0 12px;
   border-right: solid 1px;
   margin: 0px 3px;
-}
+}*/
 
 
 /* Esto anade luces */
-
+/*
 a:link {
   color: rgb(255, 169, 73); /*refleja los links de contact */
   text-decoration: none;
-}
+}*/
 
 a:visited {
   color: lightblue;
@@ -331,7 +336,7 @@ body {
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-.container {
+.container1 {
   width: 700px;
   margin: 30px auto 0;
 }
