@@ -13,11 +13,11 @@
   max-width: 1000px;
 }
 
-#owl-demo .item img{
+/*#owl-demo .item img{
     display: block;
     width: 100%;
     height: auto;
-}
+}*/
 
 
 .main-header {
@@ -373,7 +373,7 @@ header h3 {
 }
 
 .gallery {
-  width: 528px;
+  width: 1000px;
   margin: auto;
 }
 
@@ -383,14 +383,14 @@ header h3 {
 
 .gallery li {
   float: left;
-  margin: 10px;
+  margin: 5px;
 }
 
 .gallery img {
   display: block;
   padding: 5px;
   background: #42517f;
-  border: 1px solid #99adeb;
+  border: 5px solid #99adeb;
   box-shadow: 1px 1px 2px #000;
 }
 
