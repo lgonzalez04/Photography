@@ -9,9 +9,33 @@
   /*padding-top: 70px;*/
 }*/
 
+
+/*position: absolute; width: 828px; height: 1472px; opacity: 0; z-index: 1; background-color: rgb(18, 18, 18);*/
+
 .container {
-  max-width: 1000px;
+  max-width: 100%;
 }
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 800px; !important;
+}
+
+
+.navbar-inner {
+    background-color:transparent;
+}
+
+.designer {
+  background-color: grey;
+  margin-bottom: 60px;
+  max-width: 70px;
+  padding-top: 5px;
+}
+
 
 /*#owl-demo .item img{
     display: block;
