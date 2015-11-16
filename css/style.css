@@ -11,6 +11,21 @@
 
 
 /*position: absolute; width: 828px; height: 1472px; opacity: 0; z-index: 1; background-color: rgb(18, 18, 18);*/
+/*
+body {
+  width:90%;
+  margin:auto;
+  min-width:600px;
+  max-width:2000px
+}*/
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+     background-color: #fff;
+}
 
 .container {
   max-width: 100%;
@@ -22,6 +37,7 @@
 .carousel-inner{
   width:100%;
   max-height: 800px; !important;
+
 }
 
 
@@ -30,7 +46,7 @@
 }
 
 .designer {
-  background-color: black;
+  background: black;
   margin-bottom: 0px;
   max-width: 100%;
   padding-top: 100px;
@@ -92,12 +108,12 @@ h3 {
 
 /* Class Selectors ----------------- */
 
-.menu {
+/*.menu {
 	background: #384047;
 	height: 60px;
 	padding: 0 5px 0;
 	text-align: center;
-}
+}*/
 /*
 ul {
 	list-style: none;
@@ -297,7 +313,7 @@ COLORS
 
  /*site body  */
 body {
-  background-color: #000;
+  background-color: black;
   color: #333;
 }
 
