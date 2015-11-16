@@ -265,12 +265,12 @@ PAGE: ABOUT
 ******************************/
 
 
- .profile-photo {
+ /*.profile-photo {
   display: block;
   max-width: 650px;
   margin: 0 auto 30px;
   padding-top: 50px;
-}
+}*/
 
 
 
@@ -405,7 +405,7 @@ header h3 {
   text-shadow: 1px 1px 2px #000;
 }
 
-#content {
+.content {
   background: black;
   background: linear-gradient (to top, #848c9c 0%, #687080 50%, #a7b1c5 100%);
   background: -webkit-linear-gradient (bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%);
@@ -417,6 +417,8 @@ header h3 {
 .gallery {
   width: 1000px;
   margin: auto;
+  padding-left: 100px;
+  padding-right: 50px;
 }
 
 .gallery ul {
