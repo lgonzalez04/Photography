@@ -49,7 +49,8 @@ body {
   background: black;
   margin-bottom: 0px;
   max-width: 100%;
-  padding-top: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
 
 }
@@ -154,10 +155,11 @@ button {
 	float: right;
 	width: 10%;*/
 
-/*.main-footer {
- padding-top: 20px;
- padding-bottom: 10px;
-}*/
+#main-footer {
+ color: white;
+ padding-top: 25px;
+ padding-bottom: 25px;
+}
 
 /*.title {
   color: white;
@@ -222,8 +224,8 @@ li {
 /*
 a:link {
   color: rgb(255, 169, 73); /*refleja los links de contact */
-  text-decoration: none;
-}*/
+  /*text-decoration: none;*/
+/*}*/
 
 a:visited {
   color: lightblue;
@@ -253,8 +255,8 @@ footer {
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   margin: 0 5px;
   color: white;
 }
@@ -265,12 +267,19 @@ PAGE: ABOUT
 ******************************/
 
 
- /*.profile-photo {
-  display: block;
+.profile-photo {
+  display: block;*/
   max-width: 650px;
-  margin: 0 auto 30px;
+  /*margin: 0 auto 30px;*/
   padding-top: 50px;
-}*/
+  width: 1000px;
+  margin: auto;
+  padding-left: 250px;
+  /*padding-right: 100px;*/
+  width:100%;
+  /*max-height: 800px;*/
+  position: relative;
+}
 
 
 
@@ -278,7 +287,7 @@ PAGE: ABOUT
 PAGE: CONTACT
 ******************************/
 
- .contact-info {
+.contact-info {
   list-style: none;
   padding: 0;
   margin: 0;
