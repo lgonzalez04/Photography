@@ -267,9 +267,14 @@ footer {
 PAGE: ABOUT
 ******************************/
 
+.img-responsive {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
 
 .profile-photo {
-  display: block;*/
+  display: block;
   max-width: 650px;
   /*margin: 0 auto 30px;*/
   padding-top: 50px;
