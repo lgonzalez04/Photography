@@ -175,6 +175,21 @@ button {
  background-color: black;
 }
 
+.main-footer {
+  background-color: none;
+  padding-bottom: 25px;
+  padding-top: 525px;
+
+}
+
+.text-center {
+  padding-top: 75px;
+}
+
+.btn-primary {
+  background-color: red;
+}
+
 /*.title {
   color: white;
   font-size: 1.625rem; /* 26px/16px */
