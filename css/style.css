@@ -178,17 +178,18 @@ button {
 .main-footer {
   background-color: none;
   padding-bottom: 25px;
-  padding-top: 525px;
+  padding-top: 470px;
 
 }
 
 .text-center {
-  padding-top: 75px;
+  padding-top: 35px;
 }
 
-.btn-primary {
-  background-color: red;
-}
+
+/*.btn-primary {
+  background-color: green;
+}*/
 
 /*.title {
   color: white;
