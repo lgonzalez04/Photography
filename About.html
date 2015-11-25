@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -7,44 +7,47 @@
   <title>Photography</title>
   <link rel="stylesheet" type="text/css" href="css/style.css?v=1" />
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
 </head>
 <script type="text/Javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+
 <body>
 
-    <!--Navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+  <!--Navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
 
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-        <a class="navbar-brand text-muted" href="#">Luis Gonzalez Photography</a>
-        <div class="collapse navbar-collapse">
+      <a class="navbar-brand text-muted" href="#">Luis Gonzalez Photography</a>
+      <div class="collapse navbar-collapse">
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li class="active"><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="portfolio.html" data-toggle="dropdown" data-target="#">Portfolio<b class="caret"></b></a>
+               <ul class="dropdown-menu">
+                 <li><a href="portfolio.html">Portraits</a></li>
+                 <li><a href="portfolio.html">Sports</a></li>
+                 <li><a href="portfolio.html">landscape</a></li>
+               </ul>
+            </li>
+           <li class="active"><a href="about.html">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+       </ul>
 
-       </div>
-      </div>
+     </div>
     </div>
+  </div>
+</div>
+  <!-- End Navbar -->
 
-    <!-- End Navbar -->
-
-
-    <header>
-    </header>
-
-<style>
+  <style>
 .bgcontainer {
     background: url("img/IMG_6380.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -61,45 +64,58 @@
 }*/
 
 </style>
-
-<div class="bgcontainer" style="margin-top: 10px; opacity: .50;">
+<div class="bgcontainer" style="margin-top: 10px;">
+  <!-- opacity: .10; -->
 
     <!-- <div class="bg-1">
      <div class="corcontainer text-center">
      <img src="img/IMG_6380.jpg" alt="Chania" width="100%" height="650">
     </div> -->
 
-    <div class="container text-center">
-      <h3>What We Do</h3><br>
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="img/IMG_8931.jpg" class="img-responsive" style="width:100%" height="200px" alt="Image">
-          <p>Current Project</p>
-        </div>
-        <div class="col-sm-4">
-          <img src="img/power-3.jpg" class="img-responsive" style="width:100%" height="200px" alt="Image">
-          <p>Project 2</p>
-        </div>
-        <div class="col-sm-4">
-          <div class="well">
-           <p>Some text..</p>
-          </div>
-          <div class="well">
-           <p>Some text..</p>
-          </div>
-        </div>
-      </div>
-    </div><br>
+<!-- Cirlce Starts -->
+<div id="about" class="container spacer about">
+<h2 class="text-center wowload fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">A LITTLE ABOUT ME</h2>
+  <div class="row">
+  <div class="col-sm-5 wowload fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+    <h4><i class="glyphicon glyphicon-user"></i> Introduction </h4>
+    <p>  I would like to take a second to thank you for considering me to be your photographer. My name is Luis Gonzalez and I grew up in Panama City, Panama and now I call Louisville Kentucky home. I am a regular photographer who absolutely loves his job and every part of it. I appreciate people I meet, the places I go and the time I spend in every shoot. <br /> How did I get to the U.S? A beautiful lady went to Panama for a study abroad and she brought a souvenier with her (I was that souvineer). <br /> Are you wondering why I have a shoebox and a Lamb? If you'd like to hear my shoebox story follow the link: <a href="http://www.samaritanspurse.org/operation-christmas-child/shoebox-stories-luis-and-a-lamb/" target="_blank">samaritanspurse.org</a>  </p>
 
-     <div class="final">
-        <h3>about</h3>
-        <p>Hi, I'm Luis González. I want to thank you so much for visiting my website.........</p>
-        <p>If you'd like to hear my shoebox story follow the link is <a href="http://www.samaritanspurse.org/operation-christmas-child/shoebox-stories-luis-and-a-lamb/" target="_blank">samaritanspurse.org</a></p>
-     </div>
-      <footer id="main-footer" class="t-border">
-        <a href="http://twitter.com/th_luis89"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
-        <a href="http://facebook.com/luis.e.gonzalez.1293"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
-        <p>&copy; 2015 Luis González.</p>
-      </footer>
-  </body>
+
+  </div>
+  <div class="col-sm-6 wowload fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+  <h4><i class="fa fa-coffee"></i></h4>
+  <p></p>
+  </div>
+  </div>
+
+  <div class="services">
+  <h3 class="text-center wowload fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">Services</h3>
+	<ul class="row text-center list-inline  wowload bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+   		<li>
+            <span>
+              <i class="glyphicon glyphicon-home"></i>
+               <b>Photography</b>
+            </span>
+      </li>
+        <li>
+            <span><i class="fa fa-cube"></i><b>Quinceañera</b></span>
+        </li>
+        <li>
+            <span><i class="fa fa-graduation-cap"></i><b>Wedding</b></span>
+        </li>
+        <li>
+            <span><i class="fa fa-umbrella"></i><b>HTML</b></span>
+        </li>
+        <li>
+            <span><i class="fa fa-heart-o"></i><b>CSS & JAVASCRIPT</b></span>
+        </li>
+  	</ul>
+  </div>
+</div>
+<footer id="main-footer2" class="t-border">
+  <a href="http://twitter.com/th_luis89"><img src="img/twitter-follow-64.png" alt="twitter-follow-64.png" class="social-icon"></a>
+  <a href="http://facebook.com/luis.e.gonzalez.1293"><img src="img/facebook-64.png" alt="Facebook logo" class="social-icon"></a>
+  <p>&copy; 2015 Luis Gonzalez.</p>
+</footer>
+</body>
 </html>
