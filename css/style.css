@@ -14,7 +14,7 @@
     padding-left: 4em;
     padding-right: 4em;
     padding-bottom: 0;
-    color: white;
+    color: black;
 }
 
 .row {
@@ -22,6 +22,10 @@
     margin-left: -15px;
     color: white;
 }
+
+/*.row h4 {
+  color: black;
+}*/
 
 /*.fa {
     display: inline-block;
@@ -35,7 +39,7 @@
 h4 {
     font: 300 1.5em Roboto,Arial,Helvetica;
     margin-bottom: 1em;
-    color: white;
+    color: black;
 }
 
 .fa {
@@ -45,7 +49,7 @@ h4 {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: white;
+    color: black;
 }
 
 .services ul li span i {
@@ -82,6 +86,11 @@ h4 {
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: transparent;
+}
+
+#main-footer2 p {
+  color: black;
+
 }
 
 
